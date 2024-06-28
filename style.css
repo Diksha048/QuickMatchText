@@ -1,19 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
-.logo-bg{
-  background-image: url(https://w0.peakpx.com/wallpaper/855/509/HD-wallpaper-simple-background-edit-and-simple-design.jpg);
-  margin: 0%;
-}
+
 .tool-title{
     text-align: center;
     text-shadow: 2px 2px 8px #669999;
-    color: #1f2e2e;
+    color:  #3d3d5c;
     font-family: Lora;
     font-size: 50px;
     margin: 0;
 }
 body {
-
+background-color:#e0e0eb;
 }
 .input-container{
   display: flex;
@@ -30,14 +27,20 @@ body {
     width: 500px;
     padding-top: 5px;
     border-radius: 25px;
-    border: 2px solid #1f2e2e;
+    border: 2px solid black;
+}
+.button-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 30px;
 }
 .button {
     display: inline-block;
     border-radius: 4px;
-    background-color:#669999;
+    background-color:#3d3d5c;
     border: none;
-    color: #1f2e2e;
+    color:  #ffffff;
     text-align: center;
     font-size: 25px;
     padding: 10px;
@@ -48,7 +51,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
   }
   .button:hover{
-    box-shadow: 0 10px 16px 0 #669999;
+    box-shadow: 0 10px 16px 0 #3d3d5c;
   }
   
   .button span {
@@ -73,4 +76,10 @@ body {
     margin-left: 90px;
     margin-right: 40px;
 
+  }
+  .match-result-text{
+    text-align: center;
+    font-size: large;
+    font-family: Lora;
+    color: #3d3d5c;
   }
