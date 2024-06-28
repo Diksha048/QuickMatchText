@@ -14,3 +14,8 @@ function CompareText()
         resultElement.style.color = "black"
     }
 }
+function reset() {
+    input1text.value = " ";
+    input2text.value = " ";
+    resultElement.innerText = " ";
+}
