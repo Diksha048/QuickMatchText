@@ -14,8 +14,11 @@
     <input type="text" class="inputtext" id="input1text" placeholder="paste one version of text here."/>
     <input type="text" class="inputtext" id="input2text" placeholder="paste another version of text here."/>
 </div>
-    <button class="button action-button" ><span>Compare!</span></button>
-    <button class="button action-button" ><span>Clear all</span></button>
+<p class="match-result-text" id="match-result-text"></p>
+<div class="button-container">
+    <button class="button action-button" onclick="CompareText()"><span>Compare!</span></button>
+    <button class="button action-button" onclick="reset()" ><span>Clear all</span></button>
+</div>    
     <script src="script.js"></script>
 </body>
 </html>
